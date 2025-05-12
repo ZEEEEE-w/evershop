@@ -1,0 +1,68 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 80vh;
+  padding-top: 10vh;
+}
+
+.loginBox {
+  width: 500px;
+  min-height: 300px;
+  padding: 20px;
+  box-shadow: 6px 12px 60px rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 8px;
+
+  .ant-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+
+
+    .ant-form-item {
+      margin-bottom: 16px;
+    }
+
+
+    .ant-form-item-control-input-content {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+
+    .ant-form-item:last-child {
+      display: flex;
+      justify-content: center;
+    }
+
+    .ant-input {
+      width: 70%;
+    }
+
+    .ant-input-affix-wrapper {
+      width: 70%;
+    }
+
+    .ant-form-item-explain-error {
+      text-align: left;
+    }
+
+    .ant-input-password {
+      .ant-input-suffix {
+        position: absolute;
+        right: 8px; 
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+      .ant-input {
+        padding-right: 32px !important;
+      }
+    }
+  }
+}

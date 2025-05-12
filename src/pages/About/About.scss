@@ -1,0 +1,47 @@
+.about {
+  padding: 80px 40px; 
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px; 
+    
+  }
+  
+  .about-image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+    margin: 0 auto;
+  }
+  
+  .about-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+    
+    .about-title {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      color: #333;
+      letter-spacing: 0.5px; 
+      line-height: 1.3;
+    }
+    
+    .about-text {
+      display: flex;
+      flex-direction: column;
+      gap: 30px; 
+      text-align: left;
+      p {
+        font-size: 1.15rem;
+        line-height: 1.8;
+        color: #555;
+        margin: 0;
+      }
+    }
+  }
+}

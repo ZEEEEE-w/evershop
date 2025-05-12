@@ -1,0 +1,163 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    background-color: white;
+    text-decoration: none;
+    height: 90px;
+    border-bottom: 1px solid #ebebeb;
+
+    .naviLeft {
+        display: flex;
+        gap: 20px;
+    }
+
+    .naviCenter {
+
+        a {
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-image: url('../../img/logo.svg');
+            background-size: cover;
+        }
+    }
+
+    .naviRight {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.heading {
+    background: linear-gradient(135deg, #aad3ff, #0056b3);
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 150px;
+
+    .headingLeft {
+        .headingLogo {
+            width: 200px;
+            height: 200px;
+            background-image: url('../../img/logo.svg');
+            background-size: cover;
+        }
+    }
+
+    .headingRight {
+        padding: 10px;
+        color: white;
+        text-align: left;
+
+        h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 15px;
+            margin-top: 20;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #0056b3;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    }
+}
+
+.homeBody {
+    height: 700px;
+    background-color: white;
+
+    .container {
+        padding: 100px;
+        font-family: sans-serif;
+    }
+
+    .collections {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+
+    .collection {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        // align-items: left;
+        text-align: left;
+    }
+
+    .collection h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .collection p {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .btn {
+        padding: 10px 16px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        display: inline-block;
+    }
+
+    .btn:hover {
+        background-color: #117a56;
+    }
+
+    .section-title {
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    .product-grid {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .product-card {
+        text-align: center;
+        width: 250px;
+        height: 250px;
+    }
+
+    .product-card img {
+        width: 100%;
+        height: auto;
+        background-color: rgb(246, 246, 246);
+    }
+
+    .product-card .title {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .product-card .price {
+        margin-top: 4px;
+    }
+}
+
+.footer{
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+}

@@ -1,0 +1,39 @@
+.evershop-footer {
+  height: 80px; 
+  display: flex;
+  align-items: center; 
+  background-color: #fff;
+  border-top: 1px solid #f0f0f0;
+  box-sizing: border-box; /* 包含边框在高度内 */
+
+  .footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .payment-methods {
+    display: flex;
+    align-items: center;
+    
+    img {
+      height: 24px;
+      margin-right: 20px;
+      
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .copyright {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #666;
+    margin: 0;
+  }
+}
