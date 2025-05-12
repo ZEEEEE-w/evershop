@@ -14,7 +14,7 @@ export default function Layout() {
           <div className='headingLogo'></div>
         </div>
         <div className="headingRight">
-          <h1>Your Heading Here</h1>
+          <h1>Put Your Heading Here</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies sodales mi, at ornare elit semper ac.</p>
           <a href="">SHOP NOW</a>
         </div>
